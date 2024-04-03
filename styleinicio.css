@@ -17,6 +17,8 @@ body{
     width: 100%;
     margin: 0;
     z-index: 2;
+    background-color: transparent; /* Defina a cor de fundo desejada */
+    transition: background-color 0.3s ease; /* Adiciona transição suave */
 }
 .navbar a{
     float: left;
@@ -26,6 +28,16 @@ body{
     padding: 14px 16px;
     text-decoration: none;
 }
+.navbar.colored {
+    background-color: #fff; /* Altere a cor conforme necessário */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicione sombra se desejar */
+}
+
+
+.navbar.opacity {
+    background-color: #ffffff6e;
+    backdrop-filter: saturate(180%) blur(4px);
+  }
 
 .navbar a:hover{
     
